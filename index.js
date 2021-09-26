@@ -178,7 +178,6 @@ let sub=["maths","phy","ioc","oc","pc"];
         let totalComp=0;
         let perOutOf="";
         elem.forEach((elem2,ind)=>{
-            console.log(elem2)
             /** through all the chapters */
             data+=createElem(elem2);
             if(elem2[1][0]){
