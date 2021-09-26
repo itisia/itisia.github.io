@@ -9,6 +9,18 @@ let classes={
 	listDaya(year,month){
 
 	},
+	listLecs(year,month,day){
+
+	},
+	showAllSubs(){
+
+	},
+	showAllChaps(){
+
+	},
+	showLecs(){
+
+	},
 	createNewDay(){
 
 	}
