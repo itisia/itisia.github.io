@@ -69,8 +69,12 @@ let c={
 		}
 		if(this.listDays(year,month).indexOf(`${day}`)!=-1){
 			/* if the day exist */
+			console.log(`The Day ${day} Already Exist`);
 		}else{
 			console.log('creating new day');
+			let data={};
+
+			this._data[`${year}`][`${month}`][`${day}`]=data;
 		}
 	},
 	createNewYear(year){
@@ -99,4 +103,25 @@ let c={
 			return false;
 		}
 	},
+};
+let d={
+	m(chapName,lecNo,...url){
+		return {
+			chap:chapName,
+			lecno:lecNo,
+			url:url
+		}
+	},
+	p(chapName,lecNo,url){
+
+	},
+	ioc(chapName,lecNo,url){
+
+	},
+	oc(chapName,lecNo,url){
+
+	},
+	pc(chapName,lecNo,url){
+
+	}
 };

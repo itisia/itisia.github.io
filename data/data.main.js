@@ -5,3 +5,18 @@ c.createNewYear(2021);
 /*04*/
 c.createNewMonth(2020,4);
 /*05*/
+
+
+
+
+
+
+
+/*====================================*/
+/*====================================*/
+let t=document.getElementById('main');
+let cli={
+	createElem(){
+		
+	}
+}
